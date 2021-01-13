@@ -1,0 +1,164 @@
+/* 
+============================
+Global Setting 
+===========================
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+h3{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+h4{
+    font-size: 24px;
+    font-weight: 400;
+}
+p{
+    color: #3E3E3E;
+}
+.orange-text{
+    color: #FABE4C;
+}
+.blue-text{
+    color: #363958;
+}
+
+/* 
+============================
+Header part 
+===========================
+*/
+.navbar-nav{
+    text-align: right;
+}
+.pengu-button{
+    background-image: linear-gradient( to bottom,  #b1ca4a 0%, #89a127 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.banner-img img{
+  width: 100%;
+}
+.pengu-card{
+    border: 0;
+}
+
+/* 
+============================
+Product part 
+===========================
+*/
+
+.card-img{
+    background-color: rgb(196, 196, 196);
+    border-radius: 10px;
+    height: 350px;
+}
+.pengu-card-footer{
+    background-color: white;
+    border: 0;
+}
+/* 
+============================
+Service part 
+===========================
+*/
+
+.service-img{
+    width: 499px;
+    height: 350px;    
+}
+.service-img img{
+    width: 100%;
+   
+}
+.service-box-img img{
+    width: 78px;
+    height: 82px;
+}
+.service-box-info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+/* 
+============================
+Banner part 
+===========================
+*/
+#app-banner{
+    background-image: linear-gradient( to bottom,  #b1ca4a 0%, #89a127 100%);
+}
+#app-banner h1{
+    padding-top: 20px;
+    color: #fff;
+}
+#app-banner img{
+    width: 150px;
+    margin: 50px 0;
+} 
+/* 
+============================
+Footer part 
+===========================
+*/
+
+footer a img{
+    width:50px;
+    transition: 0.5s;
+}
+ footer a:hover img{
+    transform: translateY(-10px);
+ }
+
+ /* 
+============================
+Responsive Design 
+===========================
+*/
+
+@media only screen and (max-width: 500px) {
+
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 400;
+    
+    }
+    h4{
+        font-size: 18px;
+        font-weight: 300;
+    }
+    
+    
+    .col-rev{
+        flex-direction: column-reverse;
+    }
+  }
